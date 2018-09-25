@@ -1,0 +1,32 @@
+body{
+	background-color:hsl(0,0%,94%);
+}
+
+div{
+	width: 40%;
+	height: 100px;
+	margin: 25px;
+	text-align:center;
+	font-family: "Fontdiner Swanky", cursive;
+	font-size: 20px;
+	border: 2px solid hsl(284, 70%, 44%);
+	background-image: linear-gradient(to right, hsl(176, 54%, 85%),	hsl(268, 50%, 85%));
+}
+
+#one{
+	margin: auto;
+}
+
+#two, #three{
+	display: inline-block;
+}
+
+#small{
+	width:5%;
+	height:20px;
+	font-size:16px;
+	background-image:linear-gradient(to left, hsl(176, 54%, 60%),	hsl(284, 70%, 44%));
+	position:relative;
+	top:-50px;
+	left:35%;
+}
